@@ -1,0 +1,21 @@
+package thread.start.test;
+
+import thread.util.MyLogger;
+
+import static thread.util.MyLogger.log;
+
+public class CounterThread extends Thread {
+
+    @Override
+    public void run() {
+        for (int i = 0; i < 5; i++) {
+            log(i + 1);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException();
+            }
+
+        }
+    }
+}
