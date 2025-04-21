@@ -1,8 +1,6 @@
 package thread.start.test;
 
-import thread.util.MyLogger;
-
-import static thread.util.MyLogger.log;
+import static util.MyLogger.log;
 
 public class CounterRunnable implements Runnable {
 

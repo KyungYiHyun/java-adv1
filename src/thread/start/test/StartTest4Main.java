@@ -2,7 +2,7 @@ package thread.start.test;
 
 
 
-import static thread.util.MyLogger.log;
+import static util.MyLogger.log;
 
 public class StartTest4Main {
     public static void main(String[] args) {
